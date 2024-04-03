@@ -62,6 +62,17 @@ paragraph.textContent =
 const socialMediaDiv = document.createElement("div");
 socialMediaDiv.setAttribute("class", "social-media");
 
+socialMediaArray.forEach((element) => {
+  const socialMediaIcon = document.createElement("a");
+  socialMediaIcon.setAttribute("href", "#");
+
+  const icon = document.createElement("i");
+  icon.setAttribute("class", `bx bxl-${element}`);
+  socialMediaIcon.appendChild(icon);
+
+  socialMediaDiv.appendChild(socialMediaIcon);
+});
+
 const download = document.createElement("a");
 download.setAttribute("class", "btn");
 download.textContent = "Download CV";
