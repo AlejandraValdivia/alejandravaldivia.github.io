@@ -1,12 +1,11 @@
 /*==================== toggle icon navbar ====================*/
-let hamburgerMenuIcon = document.querySelector('#menu-icon');
-let navigationBar = document.querySelector('navbar');
+let hamburgerMenuIcon = document.querySelector("#menu-icon");
+let navigationBar = document.querySelector("navbar");
 
 hamburgerMenuIcon.onclick = () => {
-    hamburgerMenuIcon.classList.toggle('bx-x');
-    hamburgerMenuIcon.classList.toggle('active');
-
-}
+  hamburgerMenuIcon.classList.toggle("bx-x");
+  hamburgerMenuIcon.classList.toggle("active");
+};
 /*==================== scroll sections active link ====================*/
 
 /*==================== sticky navbar ====================*/
@@ -14,12 +13,12 @@ let stickyNavBar = document.querySelector("header");
 stickyNavBar.classList.toggle("sticky", window.scrollY > 100);
 
 /*==================== remove toggle icon and navbar when click navbar link (scroll) ====================*/
-hamburgerMenuIcon.classList.remove('bx-x');
-navigationBar.classList.remove('active');
+hamburgerMenuIcon.classList.remove("bx-x");
+navigationBar.classList.remove("active");
 
 /*==================== scroll reveal ====================*/
 /*==================== typed js ====================*/
-const navArr = ["home", "about", "services", "portfolio", "contact"];
+const navArray = ["home", "about", "services", "portfolio", "contact"];
 
 const header = document.createElement("header");
 const navbar = document.createElement("nav");
@@ -34,7 +33,7 @@ menuIcon.setAttribute("class", "bx bx-menu");
 menuIcon.setAttribute("id", "menu-icon");
 navbar.setAttribute("class", "navbar");
 
-navArr.forEach((element) => {
+navArray.forEach((element) => {
   const menuItem = document.createElement("a");
 
   if (element === "home") {
