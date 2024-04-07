@@ -378,6 +378,20 @@ body {
   cursor: pointer;
 }
 
+.calendly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: #dbe8ff;
+}
+
+.calendly p {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1f242d;
+}
+
 /* --- Footer --- */
 .footer {
   display: flex;
@@ -423,6 +437,11 @@ body {
     padding: 2rem 3%;
   }
 
+  .navbar.show {
+    display: flex;
+    flex-direction: column;
+  }
+
   section {
     padding: 10rem 3% 2rem;
   }
@@ -464,6 +483,22 @@ body {
     padding: 4rem 20px;
   }
 
+  #portfolio-img-1 {
+    height: 18vw;
+  }
+
+  #portfolio-img-2 {
+    height: 18vw;
+  }
+
+  #portfolio-img-3 {
+    height: 18vw;
+  }
+
+  #portfolio-img-5 {
+    height: 18vw;
+  }
+
   .contact {
     min-height: auto;
   }
@@ -503,7 +538,7 @@ body {
   .navbar a {
     display: block;
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
 
   .home {
@@ -547,6 +582,30 @@ body {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #portfolio-img-1 {
+    height: 25vw;
+  }
+
+  #portfolio-img-2 {
+    height: 25vw;
+  }
+
+  #portfolio-img-3 {
+    height: 25vw;
+  }
+
+  #portfolio-img-4 {
+    height: 25vw;
+  }
+
+  #portfolio-img-5 {
+    height: 25vw;
+  }
+
+  #portfolio-img-6 {
+    height: 25vw;
+  }
 }
 
 @media (max-width: 615px) {
@@ -564,6 +623,30 @@ body {
 
   .footer-iconTop {
     margin-top: 2rem;
+  }
+
+  #portfolio-img-1 {
+    height: 30vh;
+  }
+
+  #portfolio-img-2 {
+    height: 30vh;
+  }
+
+  #portfolio-img-3 {
+    height: 30vh;
+  }
+
+  #portfolio-img-4 {
+    height: 30vh;
+  }
+
+  #portfolio-img-5 {
+    height: 32vh;
+  }
+
+  #portfolio-img-6 {
+    height: 30vh;
   }
 }
 
