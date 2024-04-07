@@ -9,10 +9,10 @@
 //   navigationBar.classList.toggle("active"); //
 // };
 
-const hamburgerMenuIco = document.getElementById("menu-icon");
+const hamburgerMenuIcon = document.getElementById("menu-icon");
 const navigationBar = document.getElementById("nav-ul");
 
-hamburgerMenuIco.addEventListener("click", () => {
+hamburgerMenuIcon.addEventListener("click", () => {
   navigationBar.classList.toggle("show");
 });
 /*==================== scroll sections active link ====================*/
