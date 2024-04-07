@@ -82,8 +82,9 @@ body {
 }
 
 .home-img img {
-  width: 30vw;
+  width: 25vw;
   margin-left: 10px;
+  padding-bottom: 10rem;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -171,7 +172,8 @@ body {
 }
 
 .about-img img {
-  width: 35vw;
+  width: 20vw;
+  padding: 12rem 0.5rem 8rem 2rem;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -254,8 +256,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 2.5rem;
-  padding: 2rem 20px 16rem;
+  gap: 3.5rem;
+  padding: 2rem 30px 16rem;
 }
 
 .portfolio-container .portfolio-box {
@@ -321,6 +323,14 @@ body {
 }
 
 #portfolio-img-2 {
+  height: 18.5vw;
+}
+
+#portfolio-img-3 {
+  height: 18.5vw;
+}
+
+#portfolio-img-5 {
   height: 21vw;
 }
 
