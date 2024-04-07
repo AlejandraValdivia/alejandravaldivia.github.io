@@ -4,7 +4,9 @@ let navigationBar = document.querySelector(".navbar");
 
 hamburgerMenuIcon.onclick = () => {
   hamburgerMenuIcon.classList.toggle("bx-x");
-  hamburgerMenuIcon.classList.toggle("active");
+  // hamburgerMenuIcon.classList.toggle("active");
+  navigationBar.style.display = "block";
+  navigationBar.classList.toggle("active"); //
 };
 /*==================== scroll sections active link ====================*/
 
