@@ -1,20 +1,20 @@
 /*==================== toggle icon navbar ====================*/
-// let hamburgerMenuIcon = document.querySelector("#menu-icon");
+// let hamburgerMenuIcon = document.getElementById("menu-icon");
 // let navigationBar = document.querySelector(".navbar");
 
 // hamburgerMenuIcon.onclick = () => {
 //   hamburgerMenuIcon.classList.toggle("bx-x");
-//   // hamburgerMenuIcon.classList.toggle("active");
-//   navigationBar.style.display = "block";
-//   navigationBar.classList.toggle("active"); //
+//   hamburgerMenuIcon.classList.toggle("active");
+//   navigationBar.classList.toggle("show");
 // };
 
 const hamburgerMenuIcon = document.getElementById("menu-icon");
 const navigationBar = document.getElementById("nav-ul");
 
-hamburgerMenuIcon.addEventListener("click", () => {
+hamburgerMenuIcon.onclick = () => {
+  hamburgerMenuIcon.classList.toggle("bx-x");
   navigationBar.classList.toggle("show");
-});
+};
 /*==================== scroll sections active link ====================*/
 
 /*==================== sticky navbar ====================*/
